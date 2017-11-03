@@ -1,31 +1,29 @@
-# electron-es6-react-bootstrap
+# electron-es6-react
 
-**Clone and run for a quick way to see an Electron in action.**
+A simple boilerplate app to demonstrate how to use [ES6] and [React] with
+[Electron]. It uses [Babel] to automatically transpile ES6 and JSX code,
+without depending on any package manager besides `npm`.
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+## How?
 
-An basic Electron application needs just these files:
+The Node and Electron binaries both take a parameter `-r` that automatically
+requires a module before the rest of the code.  The `npm start` script is
+modified using this, which registers Babel and loads the entry point `main.js`.
 
-- `index.html` - A web page to render.
-- `main.js` - Starts the app and creates a browser window to render HTML.
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `src/app.jsx` - React main application file.
+The renderer entry point `index.html` does basically the same, but loads the
+`scripts/main.js` file, which renders the `views/main.jsx` component into the `body`.
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/maxmert/electron-es6-react-bootstrap
-# Go into the repository
-$ cd electron-es6-react-bootstrap
-# Install dependencies and run the app
-$ npm install && npm start
+git clone https://github.com/b52/electron-es6-react.git
+cd electron-es6-react
+npm install
+npm start
 ```
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+[ES6]: http://exploringjs.com/
+[React]: https://facebook.github.io/react/
+[Electron]: http://electron.atom.io/
+[Babel]: http://babeljs.io
 
-#### License [MIT](LICENSE.md)
