@@ -1,0 +1,36 @@
+{
+  "name": "electron-es6-react-bootstrap",
+  "version": "1.0.0",
+  "description": "A minimal Electron application, es6 and react",
+  "main": "bootstraper.js",
+  "scripts": {
+    "start": "electron bootstraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmert/electron-es6-react-bootstrap.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "es6",
+    "boilerplate",
+    "tutorial"
+  ],
+  "author": "maxmert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxmert/electron-es6-react-bootstrap/issues"
+  },
+  "homepage": "https://github.com/maxmert/electron-es6-react-bootstrap#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
+  },
+  "dependencies": {
+    "babel": "^5.8.29",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "serialport": "^6.0.4"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <div id="app"></div>
+    </body>
+
+    <script>
+        require('babel/register');
+
+        var ReactDOM = require('react-dom');
+        var React = require('react');
+        var Main = require('./src/app.jsx');
+        var domNode = document.getElementById('app');
+
+        ReactDOM.render(React.createElement(Main, null), domNode);
+    </script>
+</html>
