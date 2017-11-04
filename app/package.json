@@ -13,7 +13,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "react": "^15.3.2",
-    "react-cubeview": "^2.5.7",
+    "react-cubeview": "^2.5.8",
     "react-dom": "^15.3.2",
     "react-sizeme": "^2.3.6",
     "serialport": "^6.0.4",

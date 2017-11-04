@@ -3,7 +3,7 @@
 import React from 'react';
 import THREE from 'three';
 import CubeView from 'react-cubeview';
-
+import model from './dragon.obj';
 
 const DEBUG = false;
 
