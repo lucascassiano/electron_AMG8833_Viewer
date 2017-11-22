@@ -8,6 +8,7 @@ module.exports = {
 
     entry: './src/entry.js',
 
+      
     output: {
         path: __dirname + '/public/build',
         publicPath: 'build/',

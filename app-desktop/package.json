@@ -28,6 +28,7 @@
     "react": "^15.4.2",
     "react-container-3d": "^0.1.6",
     "react-cubeview": "^2.5.8",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "serialport": "^6.0.4"
   }
 }
