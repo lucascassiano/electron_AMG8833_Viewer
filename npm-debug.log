@@ -6,7 +6,7 @@
 5 verbose stack Error: ENOENT: no such file or directory, open '/Users/lucascassiano/package.json'
 5 verbose stack     at Error (native)
 6 verbose cwd /Users/lucascassiano/Documents/electron_AMG8833_Viewer
-7 error Darwin 16.7.0
+7 error Darwin 17.2.0
 8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 9 error node v6.9.2
 10 error npm  v4.0.5

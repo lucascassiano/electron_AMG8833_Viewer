@@ -1,0 +1,8 @@
+.cube-view{
+    position: absolute;
+    top:30px;
+    right:30px;
+    width: 10%;
+    min-width: 100px;
+    z-index: 1;
+}
