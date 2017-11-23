@@ -25,7 +25,10 @@ app.on('window-all-closed', () => {
 app.on('ready', () => {
     let mainWindow = new BrowserWindow({
         width: 800, height: 600, transparent: false,
-        frame: true, titleBarStyle: 'visible'
+        frame: true, titleBarStyle: 'visible',
+        webPreferences: {
+            experimentalFeatures: true
+          }
     });
     mainWindow.loadURL(`file://${__dirname}/public/index.html`);
 })

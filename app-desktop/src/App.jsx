@@ -16,6 +16,9 @@ export default class App extends Component {
     constructor(props) {
         super(props);
         console.log("data", data);
+        window.addEventListener('offline', function (e){
+            alert("OFFLINE NOW");
+        });
     }
     render() {
         const logosRender = logos.map((logo, index) => {
