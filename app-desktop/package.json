@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-webpack",
+  "name": "electron_AMG8833_Viewer",
   "version": "1.0.0",
   "description": "Electron + React + Webpack 2 seed.",
   "main": "main.js",
@@ -8,8 +8,8 @@
     "start": "electron .",
     "build": "webpack --config webpack.build.config.js && electron-packager ."
   },
-  "author": "J. Renato Ramos González <renato.etc.etc.etc@gmail.com>",
-  "repository": "pastahito/electron-react-webpack",
+  "author": "lucascassiano",
+  "repository": "",
   "license": "WTFPL",
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -19,6 +19,7 @@
     "electron": "^1.4.15",
     "electron-packager": "^10.1.0",
     "electron-prebuilt-compile": "^1.7.9",
+    "electron-rebuild": "^1.6.0",
     "electron-reload": "^1.2.2",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "file-loader": "^0.9.0",

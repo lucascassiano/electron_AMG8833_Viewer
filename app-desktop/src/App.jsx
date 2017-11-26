@@ -4,7 +4,7 @@ import { } from './styles/global.css'
 import Logo from './components/Logo.jsx'
 import Link from './components/Link.jsx';
 import data from './assets/test.json';
-import Container3d from 'react-container-3d';
+import Viewer3d from './components/Viewer3d.jsx';
 
 const logos = [
     require('./assets/electron.png'),
@@ -32,7 +32,7 @@ export default class App extends Component {
                 </div>
 
                 <div className="canvas-3d">
-                    <Container3d aspect={16 / 9} percentageWidth={"100%"} />
+                    <Viewer3d data={data}/>
                 </div>
 
             </div>
